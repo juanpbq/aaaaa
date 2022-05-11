@@ -1,0 +1,28 @@
+.p1 {
+    font-family: "Times New Roman", Times, serif;
+    color: aqua;
+}
+.p2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    -webkit-text-stroke: 5px rgba(255, 38, 0, 0.89);
+}
+ul {
+    list-style-type: none;
+    float: right;
+    width: 70%;
+    margin: auto;
+    padding: 2;
+    overflow: hidden;
+}
+img{
+    float:right;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
