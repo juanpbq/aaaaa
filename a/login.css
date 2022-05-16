@@ -1,3 +1,22 @@
+/* rombos */
+
+html:after, html:before {
+  height: 4vw;
+  background-size: 4vw 4vw;
+}
+  html:after, html:before {
+    content: "";
+    display: block;
+    background-color: #1f2935;
+    background-image: linear-gradient(45deg,#941c21 25%,transparent 0,transparent 75%,#941c21 0,#941c21),linear-gradient(-45deg,#941c21 25%,transparent 0,transparent 75%,#941c21 0,#941c21);
+    background-size: 32px 32px;
+    background-size: 2rem 2rem;
+    background-position: 50%;
+    height: 32px;
+    height: 2rem;
+  }
+
+
 * {box-sizing: border-box;}
 body{
     height: 600;
